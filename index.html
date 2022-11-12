@@ -5,54 +5,194 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Aquí podra encontrar todos los productos de escritorio directos de Japon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link href="./css/styles.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e3500cfe31.js" crossorigin="anonymous"></script>
     <title>Home</title>
 </head>
 <body>
     <header>
-        <div>
-            <img class="logo" src="./img/MaveStore.png"  alt="Imagen de la tienda">
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a><img class="logo" src="./img/MaveStore.png"  alt="Imagen de la tienda"></a>
+          <a class="navbar-brand" href="#" style="color: rgb(240, 130, 225)">Home</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#" style="color: rgb(240, 130, 225)">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#" style="color: rgb(240, 130, 225)">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="https://docs.google.com/forms/d/e/1FAIpQLSfSsb-ls0ZY05fam2sQsydElAKuo2GppMBVWRd0PYS_z-u-MQ/viewform?usp=sf_link" style="color: rgb(240, 130, 225)">Contacto</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Buscar Producto..." aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+          </div>
         </div>
-        <div>
-            <nav>
-                <ul class="items-header">
-                    <li><a href="#">Accesorios</a></li>
-                    <li><a href="#">Pepelería</a></li>
-                    <li><a href="#">Gamer</a></li>
-                    <li><a href="#">Decoraciones</a></li>
-                    <li><a href="#">Cosmeticos</a></li>
-                </ul>
-            </nav>
-        </div>
+      </nav>
     </header>
+
+    <section class="seccion-arriba">
+        <h2>☆ いらっしゃいませ ☆</h2>
+    </section>
+
+    <!--carrusel-->
+
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/luna 1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/luna 2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/luna 3.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+ <!-- fin del carrusel-->
+
     <section class="fondo-seccion">
         <h1>Aquí encontrará los mejores accesorios, directos del País del anime</h1>
-        <h2>¡Bienvenidos!</h2>
+        <h2>♡ ¡Bienvenidos! ♡</h2>
     </section>
+
     <main>
-        <section class="total-productos">
-            <div class="productos1">
-                <article><img class="tamaño-imgs" src="./img/auriculares2.jpg"  alt="auriculares2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa cupiditate obcaecati harum quod repellat atque eius! Amet laudantium tempore maxime, temporibus laboriosam excepturi doloremque veritatis, molestiae sed ex sint nesciunt.</article>
-                <article><img class="tamaño-imgs" src="./img/brochas.jpg"  alt="auriculares2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum, ex. Architecto distinctio commodi omnis ullam est qui aut. Ad quasi sunt quis laudantium animi eum magnam distinctio, molestias beatae laborum.</article>
-                <article><img class="tamaño-imgs" src="./img/lampara.jpg"  alt="auriculares2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, a officia! Aut ad non perspiciatis quidem quam amet consequuntur, asperiores optio commodi itaque officia eligendi voluptates aspernatur laudantium voluptatibus quaerat.</article>
+        
+    
+    <div class="contenedor-1">
+        <div class="conteitner">
+            <div class="row">
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./img/mochilas.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Mochilas neko</h5>
+                          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                          <a href="#" class="btn btn-primary">Ver producto</a>
+                          <button type="button" class="btn btn-outline-primary">Comprar</button>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./img/carterita.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Mochilas neko</h5>
+                          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                          <button type="button" class="btn btn-outline-primary">Comprar</button>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./img/brochas.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Mochilas neko</h5>
+                          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                          <button type="button" class="btn btn-outline-primary">Comprar</button>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./img/cartucheras.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Mochilas neko</h5>
+                          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                          <button type="button" class="btn btn-outline-primary">Comprar</button>
+                        </div>
+                      </div>
+                </div>
             </div>
-            <div class="productos1">
-                <article><img class="tamaño-imgs" src="./img/mochilas.jpg"  alt="auriculares2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis aperiam debitis placeat aliquam. Sed obcaecati perspiciatis iste sapiente mollitia. Natus ducimus eveniet, provident cumque odio nihil laborum rerum repudiandae ratione.</article>
-                <article><img class="tamaño-imgs" src="./img/lentes.jpg"  alt="auriculares2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo corrupti accusantium beatae expedita vero facilis, eos repellat impedit fuga praesentium ab, enim itaque unde ea nam natus cupiditate dignissimos dolores!</article>
-                <article><img class="tamaño-imgs" src="./img/auriculares.jpg"  alt="auriculares2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, officiis praesentium! Nobis, voluptates. Ab impedit adipisci est ullam vero, labore qui quibusdam non natus id explicabo saepe debitis obcaecati laborum?</article>
+        </div>
+    </div>
+    
+
+    <div class="contenedor-1">
+        <div class="conteitner">
+            <div class="row">
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./img/lampara.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Mochilas neko</h5>
+                          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                          <a href="#" class="btn btn-primary">Ver producto</a>
+                          <button type="button" class="btn btn-outline-primary">Comprar</button>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./img/lentes.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Mochilas neko</h5>
+                          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                          <button type="button" class="btn btn-outline-primary">Comprar</button>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./img/cuaderno.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Mochilas neko</h5>
+                          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                          <button type="button" class="btn btn-outline-primary">Comprar</button>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./img/lapiceras.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Mochilas neko</h5>
+                          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                          <button type="button" class="btn btn-outline-primary">Comprar</button>
+                        </div>
+                      </div>
+                </div>
             </div>
-        </section>
+        </div>
+    </div>
+
     </main>
+
     <footer>
         <section class="secciones-footer">
             <a href="#">Nosotros</a>
-            <a href="#">Nuestras redes</a>
+            <a href="#">Contacto</a>
             <a href="#">Medios de pago</a>
         </section>
         <section class="secciones-footer">
-            <a href="#">Contactos</a>
-            <a href="#">Preguntas frecuentes</a>
-            <a href="#">Tiendas fisicas</a>
+            <a href="#">Nuestras redes</a>
+            <a class="fa-brands fa-github" class="fa-brands fa-facebook" href="https://github.com/VanesaSole"></a>
+            <a class="fa-brands fa-instagram-square" href="https://www.instagram.com/_vane.gutierrez/"></a>
         </section>
         <section class="secciones-footer">
             <a href="#">Lo más vendido</a>
@@ -63,10 +203,8 @@
     
 
 
-
-
-
-
-    
+ <!--script-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
 </body>
 </html>

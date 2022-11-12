@@ -4,8 +4,104 @@
     box-sizing: border-box;
 }
 
-/*css del header (home)"*/
+.logo{
+    height: 150px;
+    border-radius: 50%;
+}
 
+.seccion-arriba{
+    background-color: rgb(250, 154, 199);
+    color: rgb(109, 0, 51);
+    border-top: solid violet;
+    border-bottom: solid violet;
+    text-align: center;
+}
+
+main{
+    padding-bottom: 50px;
+}
+
+.fondo-seccion{
+    background-color: rgb(241, 167, 229);
+    text-align: center;
+}
+
+.contenedor-1{
+    padding-left: 30px;
+    padding-top: 50px;
+}
+
+footer{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(255, 168, 236);
+}
+
+.secciones-footer{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+.secciones-footer a{
+    text-decoration: none;
+    line-height: 32px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+
+.secciones-footer a:hover{
+    color:#8767ac;
+    font-weight: bold;
+    border-bottom: #8767ac double;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*css del header (home)"*/
+/*
 header{
     background-color: rgb(255, 168, 236);
     display: flex;
@@ -43,7 +139,7 @@ header{
 
 
 /*css del section del home*/
-
+/*
 .fondo-seccion{
     background-image: url("../img/seccion-kawaii.jpg");
 
@@ -63,7 +159,7 @@ h2{
 }
 
 
-/*css del main*/
+/*css del main*//*
 .total-productos{
     padding-left: 70px;
     padding-bottom: 50px;
@@ -84,7 +180,7 @@ h2{
 }
 
 /*css del footer*/
-
+/*
 footer{
     display:flex;
     flex-direction: row;
@@ -111,3 +207,5 @@ footer{
     font-weight: bold;
     border-bottom: #8767ac double;
 }
+
+*/
