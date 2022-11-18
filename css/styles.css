@@ -7,7 +7,15 @@
 .logo{
     height: 150px;
     border-radius: 50%;
+    transition: width 2s, height 2s, transform 2s;
 }
+
+.logo:hover {
+    width: 170px;
+    height: 170px;
+    transform: rotate(360deg);
+  }
+
 
 .seccion-arriba{
     background-color: rgb(250, 154, 199);
@@ -17,8 +25,32 @@
     text-align: center;
 }
 
+.navbar-brand{
+    padding-left: 70px;
+    padding-right: 50px;   
+}
+
+.navbar-brand:hover{
+    color:#8767ac;
+    font-weight: bold;
+    text-shadow: 0px 0px 10px #00f1e5;
+}
+
 main{
     padding-bottom: 50px;
+}
+
+.card:hover{
+    box-shadow: 0px 0px 10px rgb(255, 19, 243);
+}
+
+  
+button:hover {
+    box-shadow: 0px 0px 25px #00f1e5;
+  }
+
+.btn:hover{
+    box-shadow: 0px 0px 10px rgb(255, 19, 243);
 }
 
 .fondo-seccion{
@@ -27,9 +59,10 @@ main{
 }
 
 .contenedor-1{
-    padding-left: 30px;
+    padding-left: 15px;
     padding-top: 50px;
 }
+
 
 footer{
     display:flex;
@@ -58,8 +91,12 @@ footer{
     border-bottom: #8767ac double;
 }
 
-
-
+@media (min-width: 576px)
+{
+    .contenedor-1{
+    padding-left: 50px;
+}
+}
 
 
 
