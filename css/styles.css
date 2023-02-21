@@ -113,6 +113,20 @@ footer{
     border-bottom: #8767ac double;
 }
 
+@media (max-width: 400px)
+{
+    .card{
+        width: 170px !important
+    }
+    .card-img-top{
+        width: 170px;
+    }
+
+    .card-body{
+        width: 170px;
+    }
+}
+
 @media (min-width: 576px)
 {
     .contenedor-1{
